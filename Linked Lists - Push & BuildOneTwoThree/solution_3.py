@@ -12,11 +12,7 @@ class Node:
 def push(head, data):
     """
     The function creates a new linked list/node."""
-    if head is None:
-        return Node(data)
-    node = Node(data)
-    node.next = head
-    return node
+    return Node(data, head)
 
 def build_one_two_three():
     pass
